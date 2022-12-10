@@ -15,3 +15,16 @@
         {{message()}}
     </p>
 </div>
+<nav>
+    <ul>
+        <li>
+            <a [routerLink]="['fa-a']" routerLinkActive="router-link-active" >Child-A</a>
+        </li>
+        <li>
+            <a [routerLink]="['fb-b']" routerLinkActive="router-link-active" >Child-B</a>
+        </li>
+    </ul>
+</nav>
+
+<a [routerLink]="['/s']" routerLinkActive="router-link-active" >Go to Second Component</a>
+<router-outlet></router-outlet>
