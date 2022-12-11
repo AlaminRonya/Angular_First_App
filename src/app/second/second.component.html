@@ -1,2 +1,11 @@
 <p>second works!</p>
+
+<label for="color"> Color
+    <input type="text" [formControl]="color">
+</label>
+<h1>Reactive Form</h1>
+<p>
+    {{color.value}}
+</p>
+
 <a [routerLink]="['/']" routerLinkActive="router-link-active" >Go to First Component</a>

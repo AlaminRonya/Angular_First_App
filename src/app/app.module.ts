@@ -8,6 +8,7 @@ import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
 import { FaComponent } from './fa/fa.component';
 import { FbComponent } from './fb/fb.component';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 // const routes: Routes = [
 //   {
@@ -35,6 +36,8 @@ import { FbComponent } from './fb/fb.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule
+    
     // RouterModule.forRoot(routes)
   ],
   providers: [],
