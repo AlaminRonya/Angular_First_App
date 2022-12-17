@@ -1,10 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, NgModule, OnInit  } from '@angular/core';
 
 @Component({
   selector: 'app-fa',
   templateUrl: './fa.component.html',
   styleUrls: ['./fa.component.css']
 })
-export class FaComponent {
+export class FaComponent implements OnInit {
 
+  constructor(){}
+  ngOnInit() {
+  }
+  searchValue: string = '';
+  
 }

@@ -1,1 +1,4 @@
 <p>fa works!</p>
+
+<input type="text" name="searchValue" [(ngModel)]="searchValue">
+<span *ngIf="searchValue != ''">You searched for "{{ searchValue }}"</span>

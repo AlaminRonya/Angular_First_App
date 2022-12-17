@@ -15,6 +15,7 @@ import { NavComponent } from './nav/nav.component';
 import { NotificationComponent } from './notification/notification.component';
 import { SearchComponent } from './search/search.component';
 
+
 // const routes: Routes = [
 //   {
 //     path: '', component: FirstComponent,
@@ -46,7 +47,8 @@ import { SearchComponent } from './search/search.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule
     
     // RouterModule.forRoot(routes)
   ],
