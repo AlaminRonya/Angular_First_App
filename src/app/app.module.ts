@@ -9,6 +9,11 @@ import { SecondComponent } from './second/second.component';
 import { FaComponent } from './fa/fa.component';
 import { FbComponent } from './fb/fb.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { ContainerComponent } from './container/container.component';
+import { HeaderComponent } from './header/header.component';
+import { NavComponent } from './nav/nav.component';
+import { NotificationComponent } from './notification/notification.component';
+import { SearchComponent } from './search/search.component';
 
 // const routes: Routes = [
 //   {
@@ -31,7 +36,12 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
     FirstComponent,
     SecondComponent,
     FaComponent,
-    FbComponent
+    FbComponent,
+    ContainerComponent,
+    HeaderComponent,
+    NavComponent,
+    NotificationComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

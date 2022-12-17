@@ -4,6 +4,7 @@ import { FaComponent } from './fa/fa.component';
 import { FbComponent } from './fb/fb.component';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
+import { ContainerComponent } from './container/container.component';
 
 const routes: Routes = [
   {
@@ -13,6 +14,8 @@ const routes: Routes = [
         path: 'fa-a', component: FaComponent
       },{
         path: 'fb-b', component: FbComponent
+      },{
+        path: 'container', component: ContainerComponent
       }
     ]
   },{
