@@ -14,6 +14,7 @@ import { HeaderComponent } from './header/header.component';
 import { NavComponent } from './nav/nav.component';
 import { NotificationComponent } from './notification/notification.component';
 import { SearchComponent } from './search/search.component';
+import { ProductsComponent } from './products/products.component';
 
 
 // const routes: Routes = [
@@ -42,7 +43,8 @@ import { SearchComponent } from './search/search.component';
     HeaderComponent,
     NavComponent,
     NotificationComponent,
-    SearchComponent
+    SearchComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,

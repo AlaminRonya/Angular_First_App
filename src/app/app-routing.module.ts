@@ -5,6 +5,7 @@ import { FbComponent } from './fb/fb.component';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
 import { ContainerComponent } from './container/container.component';
+import { ProductsComponent } from './products/products.component';
 
 const routes: Routes = [
   {
@@ -20,6 +21,8 @@ const routes: Routes = [
     ]
   },{
     path: 's', component: SecondComponent
+  },{
+    path: 'product', component: ProductsComponent
   }
 ];
 
